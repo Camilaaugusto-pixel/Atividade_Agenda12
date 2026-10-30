@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meus sites favoritos</title>
+
+    <!-- Estilos utilizados para personalizar a página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #263238;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .site {
+            background-color: white;
+            width: 220px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.10);
+        }
+
+        .site img {
+            width: 150px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        .site h2 {
+            color: #333;
+            font-size: 20px;
+        }
+
+        .site a {
+            color: #0969da;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .site a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Título principal da página -->
+    <h1>Meus sites favoritos: Camila</h1>
+
+    <p>Confira os sites que fazem parte da minha rotina de estudos e entretenimento!</p>
+
+    <!-- Área onde ficam os cinco sites favoritos -->
+    <div class="container">
+
+        <!-- Primeiro site: GitHub -->
+        <div class="site">
+            <h2>GitHub</h2>
+            <img src="GITHUB%20LOGO.png.png" alt="Logo do GitHub">
+            <p><a href="https://github.com/" target="_blank">Acessar GitHub</a></p>
+        </div>
+
+        <!-- Segundo site: MDN Web Docs -->
+        <div class="site">
+            <h2>MDN Web Docs</h2>
+            <img src="MDN%20WEB%20LOGO.png.png" alt="Logo do MDN">
+            <p><a href="https://developer.mozilla.org/pt-BR/" target="_blank">Acessar MDN</a></p>
+        </div>
+
+        <!-- Terceiro site: Stack Overflow -->
+        <div class="site">
+            <h2>Stack Overflow</h2>
+            <img src="STACK%20OVERFLOW%20LOGO.png.png" alt="Logo do Stack Overflow">
+            <p><a href="https://stackoverflow.com/" target="_blank">Acessar Stack Overflow</a></p>
+        </div>
+
+        <!-- Quarto site: W3Schools -->
+        <div class="site">
+            <h2>W3Schools</h2>
+            <img src="W3SCOOLS%20LOGO.png.png" alt="Logo do W3Schools">
+            <p><a href="https://www.w3schools.com/" target="_blank">Acessar W3Schools</a></p>
+        </div>
+
+        <!-- Quinto site: YouTube -->
+        <div class="site">
+            <h2>YouTube</h2>
+            <img src="YOUTUBE%20LOGO.png.png" alt="Logo do YouTube">
+            <p><a href="https://www.youtube.com/" target="_blank">Acessar YouTube</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
